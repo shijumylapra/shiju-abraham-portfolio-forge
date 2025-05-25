@@ -8,48 +8,32 @@ const Skills = () => {
       title: "Programming Languages",
       icon: Code,
       skills: [
-        { name: "C#", level: 90 },
-        { name: "Java", level: 85 },
-        { name: "JavaScript", level: 80 },
-        { name: "Python", level: 70 },
-        { name: "SQL", level: 85 },
-        { name: "HTML/CSS", level: 80 }
+        { name: "C#", level: 60 },
+        { name: "Java", level: 60 },
+        { name: "JavaScript", level: 60 },
+        { name: "Python", level: 25 },
+        { name: "SQL", level: 60 },
+        { name: "HTML/CSS", level: 60 }
       ]
     },
     {
       title: "Frontend Technologies",
       icon: Globe,
       skills: [
-        { name: "React", level: 75 },
-        { name: "Bootstrap", level: 85 },
-        { name: "jQuery", level: 80 },
-        { name: "Responsive Design", level: 85 },
-        { name: "CSS3/SASS", level: 80 },
-        { name: "TypeScript", level: 70 }
+        { name: "React", level: 10 },
+        { name: "Bootstrap", level: 40 },
+        { name: "jQuery", level: 40 },
+        { name: "TypeScript", level: 10 }
       ]
     },
-    {
-      title: "Backend Technologies",
-      icon: Layers,
-      skills: [
-        { name: "ASP.NET", level: 90 },
-        { name: "ASP.NET Core", level: 85 },
-        { name: "Spring Boot", level: 75 },
-        { name: "PHP", level: 70 },
-        { name: "Node.js", level: 65 },
-        { name: "REST APIs", level: 85 }
-      ]
-    },
+         
     {
       title: "Databases",
       icon: Database,
       skills: [
-        { name: "SQL Server", level: 90 },
-        { name: "MySQL", level: 80 },
-        { name: "PostgreSQL", level: 75 },
-        { name: "Oracle", level: 70 },
-        { name: "MongoDB", level: 65 },
-        { name: "Database Design", level: 85 }
+        { name: "SQL Server", level: 70 },
+        { name: "MySQL", level: 60 },
+        { name: "Database Design", level: 40 }
       ]
     },
     {
@@ -68,12 +52,12 @@ const Skills = () => {
       title: "Cloud & DevOps",
       icon: Cloud,
       skills: [
-        { name: "AWS", level: 75 },
-        { name: "Azure", level: 70 },
-        { name: "Docker", level: 70 },
+        { name: "AWS", level: 40 },
+        { name: "Azure", level: 25 },
+        { name: "Docker", level: 15 },
         { name: "Git/GitHub", level: 85 },
-        { name: "CI/CD", level: 75 },
-        { name: "Agile/Scrum", level: 80 }
+        { name: "CI/CD", level: 40 },
+        { name: "Agile/Scrum", level: 50 }
       ]
     }
   ];

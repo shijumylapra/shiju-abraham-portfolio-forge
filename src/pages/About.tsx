@@ -15,13 +15,13 @@ const About = () => {
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Passionate software developer with a strong foundation in multiple programming languages 
-            and a drive for continuous learning in automation testing.
+            and a drive for continuous learning in software development.
           </p>
         </div>
 
         {/* Personal Bio */}
         <section className="bg-white rounded-3xl p-8 lg:p-12 shadow-lg mb-16 animate-fade-in">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">My Story</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-6"> </h2>
           <div className="grid lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2 space-y-6 text-gray-600 leading-relaxed">
               <p>
@@ -30,16 +30,21 @@ const About = () => {
                 expertise across multiple programming languages and frameworks.
               </p>
               <p>
-                Throughout my career, I have developed a deep understanding of software development 
-                lifecycle, from requirements analysis to deployment. My experience includes working 
-                with enterprise-level applications, database design, and web development using modern 
-                technologies.
+                Although I do not hold a formal degree in Computer Science, my passion for 
+                software development and web design has driven me to self-teach and gain practical experience in coding.
+                I am excited about the opportunity to contribute to your team and help build innovative solutions that have a real impact.
               </p>
               <p>
                 Currently, I am transitioning into automation testing and quality assurance roles, 
                 driven by my belief that robust testing is crucial for delivering high-quality software. 
                 I am particularly interested in DevOps environments and continuous integration practices 
                 that enhance software reliability and deployment efficiency.
+              </p>
+              <p>
+                Currently, I am employed as a Login Clerk. 
+                My daily responsibilities require me to interact with various software platforms, troubleshoot common technical issues,
+                 and ensure the seamless operation of our digital systems. 
+                 In the upcoming academic year, I will be commencing my <b>Bachelor of Computer Applications (BCA)</b> program online. This opportunity will allow me to deepen my knowledge of programming languages, software development methodologies, and system analysis, all while continuing to apply my learning in a professional environment
               </p>
               <p>
                 My goal is to leverage my development experience to create comprehensive test automation 
@@ -69,21 +74,30 @@ const About = () => {
           
           <div className="space-y-6">
             <div className="border-l-4 border-blue-600 pl-6">
-              <h3 className="text-xl font-semibold text-gray-900">Master of Computer Applications (MCA)</h3>
-              <p className="text-blue-600 font-medium">University of Kerala</p>
-              <p className="text-gray-600">2015 - 2018</p>
+              <h3 className="text-xl font-semibold text-gray-900">Automation Test Engineer Masters Program</h3>
+              <p className="text-blue-600 font-medium">Simplilearn Online Bootcamps</p>
+              <p className="text-gray-600">2024 - 2025</p>
               <p className="text-gray-600 mt-2">
-                Comprehensive study of computer science fundamentals, software engineering principles, 
-                and advanced programming concepts.
+                Automation course of complete knowledge of software testing technologies 
+                such as Selenium Web Driver, TestNG, Maven, AutoIT, Selenium Grid, Appium, and Docker to help you build a robust testing framework
+             
               </p>
             </div>
             
             <div className="border-l-4 border-blue-600 pl-6">
-              <h3 className="text-xl font-semibold text-gray-900">Bachelor of Computer Applications (BCA)</h3>
-              <p className="text-blue-600 font-medium">University of Kerala</p>
-              <p className="text-gray-600">2012 - 2015</p>
+              <h3 className="text-xl font-semibold text-gray-900">Software Developer Program</h3>
+              <p className="text-blue-600 font-medium">SAIT</p>
+              <p className="text-gray-600">Jul 2019 - Dec 2019</p>
               <p className="text-gray-600 mt-2">
-                Foundation in computer programming, database management, and software development methodologies.
+                Computer programming, database management, and software development methodologies.
+              </p>
+            </div>
+             <div className="border-l-4 border-blue-600 pl-6">
+              <h3 className="text-xl font-semibold text-gray-900">Diploma in Information Technology</h3>
+              <p className="text-blue-600 font-medium">NIIT</p>
+              <p className="text-gray-600">Mar 2002 - Apr 2003</p>
+              <p className="text-gray-600 mt-2">
+                Computer programming, database management, and software development methodologies.
               </p>
             </div>
           </div>
@@ -98,28 +112,21 @@ const About = () => {
           
           <div className="space-y-8">
             <div className="border-l-4 border-blue-600 pl-6">
-              <h3 className="text-xl font-semibold text-gray-900">Senior Software Developer</h3>
-              <p className="text-blue-600 font-medium">Tech Solutions Inc.</p>
-              <p className="text-gray-600">2020 - Present</p>
+              <h3 className="text-xl font-semibold text-gray-900">Software Developer</h3>
+              <p className="text-blue-600 font-medium">Kettaneh Ltd, KSA</p>
+              <p className="text-gray-600">Mar 2007 - Apr 2009</p>
               <ul className="text-gray-600 mt-3 space-y-2">
-                <li>• Led development of enterprise web applications using C#.NET and SQL Server</li>
-                <li>• Implemented automated testing frameworks using Selenium and Java</li>
-                <li>• Collaborated with cross-functional teams to deliver high-quality software solutions</li>
-                <li>• Mentored junior developers in best practices and code review processes</li>
+                <li>•Participated in all phases of the Software Development Life Cycle (SDLC), including requirements gathering, system analysis, coding, testing, and deployment
+          </li>
+                <li>•Developed data-driven applications using ADO.NET and optimized stored procedures, triggers, and views in SQL Server
+                  </li>
+                <li>•Assisted senior developers in designing, testing, and deploying database structures, including tables, views, and indexes     </li>
+                <li>•Implemented data presentation using DataGrid controls in both WinForms and WPF applications</li>
               </ul>
             </div>
             
-            <div className="border-l-4 border-blue-600 pl-6">
-              <h3 className="text-xl font-semibold text-gray-900">Software Developer</h3>
-              <p className="text-blue-600 font-medium">Digital Innovations Ltd.</p>
-              <p className="text-gray-600">2018 - 2020</p>
-              <ul className="text-gray-600 mt-3 space-y-2">
-                <li>• Developed and maintained web applications using ASP.NET and JavaScript</li>
-                <li>• Designed and optimized database schemas and queries for improved performance</li>
-                <li>• Participated in agile development processes and sprint planning</li>
-                <li>• Contributed to code reviews and quality assurance processes</li>
-              </ul>
-            </div>
+             
+           
           </div>
         </section>
 
@@ -132,21 +139,18 @@ const About = () => {
           
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-blue-50 rounded-2xl p-6">
-              <h3 className="font-semibold text-gray-900 mb-2">AWS Cloud Practitioner</h3>
-              <p className="text-gray-600 text-sm">Amazon Web Services • 2023</p>
+              <h3 className="font-semibold text-gray-900 mb-2">Certified Oracle SQL Developer</h3>
+              <p className="text-gray-600 text-sm">2023</p>
             </div>
             <div className="bg-blue-50 rounded-2xl p-6">
-              <h3 className="font-semibold text-gray-900 mb-2">Selenium WebDriver Certification</h3>
-              <p className="text-gray-600 text-sm">Testing Excellence • 2022</p>
+              <h3 className="font-semibold text-gray-900 mb-2">Cybersecurity Fundamentals</h3>
+              <p className="text-gray-600 text-sm">2023</p>
             </div>
             <div className="bg-blue-50 rounded-2xl p-6">
-              <h3 className="font-semibold text-gray-900 mb-2">Agile Testing Fundamentals</h3>
-              <p className="text-gray-600 text-sm">Agile Alliance • 2022</p>
+              <h3 className="font-semibold text-gray-900 mb-2">Google Data Analytics Professional Program</h3>
+              <p className="text-gray-600 text-sm">2022</p>
             </div>
-            <div className="bg-blue-50 rounded-2xl p-6">
-              <h3 className="font-semibold text-gray-900 mb-2">Microsoft .NET Developer</h3>
-              <p className="text-gray-600 text-sm">Microsoft • 2021</p>
-            </div>
+            
           </div>
         </section>
       </div>
