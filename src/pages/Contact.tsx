@@ -43,7 +43,7 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone",
-      details: "+1 (587) 123-4567",
+      details: "+1 (780) 932-7130",
       link: "tel:+15871234567"
     },
     {
@@ -58,13 +58,13 @@ const Contact = () => {
     {
       icon: Linkedin,
       name: "LinkedIn",
-      url: "https://linkedin.com/in/shijuabraham",
+      url: "https://linkedin.com/in/shiju-abraham-4a8b5415b",
       color: "bg-blue-600 hover:bg-blue-700"
     },
     {
       icon: Github,
       name: "GitHub",
-      url: "https://github.com/shijuabraham",
+      url: "https://github.com/shijumylapra",
       color: "bg-gray-800 hover:bg-gray-900"
     }
   ];
@@ -80,8 +80,7 @@ const Contact = () => {
             Get In <span className="text-blue-600">Touch</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Ready to discuss your project or have questions about my services? 
-            I'd love to hear from you. Let's create something amazing together.
+            
           </p>
         </div>
 
@@ -130,7 +129,7 @@ const Contact = () => {
             </div>
 
             {/* Availability */}
-            <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-3xl p-8 text-white animate-fade-in">
+            {/* <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-3xl p-8 text-white animate-fade-in">
               <h2 className="text-2xl font-bold mb-4">Availability</h2>
               <p className="text-blue-100 mb-4">
                 I'm currently available for new projects and collaborations.
@@ -140,7 +139,7 @@ const Contact = () => {
                 <p><strong>Time Zone:</strong> Mountain Time (MT)</p>
                 <p><strong>Preferred Contact:</strong> Email or LinkedIn</p>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Contact Form */}
@@ -228,28 +227,8 @@ const Contact = () => {
           </div>
         </div>
 
-        {/* Additional Info */}
-        <div className="mt-16 bg-white rounded-3xl p-8 lg:p-12 shadow-lg text-center animate-fade-in">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">Let's Build Something Great Together</h2>
-          <p className="text-gray-600 max-w-3xl mx-auto mb-8">
-            Whether you need a new web application, test automation framework, or technical consultation, 
-            I'm here to help bring your ideas to life with clean, efficient, and scalable solutions.
-          </p>
-          <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-            <div className="bg-blue-50 rounded-2xl p-6">
-              <h3 className="font-semibold text-gray-900 mb-2">Quick Response</h3>
-              <p className="text-gray-600 text-sm">I typically respond to inquiries within 24 hours</p>
-            </div>
-            <div className="bg-blue-50 rounded-2xl p-6">
-              <h3 className="font-semibold text-gray-900 mb-2">Free Consultation</h3>
-              <p className="text-gray-600 text-sm">Initial project discussion is always complimentary</p>
-            </div>
-            <div className="bg-blue-50 rounded-2xl p-6">
-              <h3 className="font-semibold text-gray-900 mb-2">Flexible Engagement</h3>
-              <p className="text-gray-600 text-sm">From short-term projects to long-term partnerships</p>
-            </div>
-          </div>
-        </div>
+         
+        
       </div>
     </div>
   );

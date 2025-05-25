@@ -19,14 +19,16 @@ const Index = () => {
                 Shiju Abraham - Software Developer
               </p>
               <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                Professional
-                <span className="block text-blue-600">Software Solutions</span>
+            
+                <span className="block text-blue-600"></span>
               </h1>
             </div>
             
             <p className="text-xl text-gray-600 leading-relaxed max-w-lg">
-              Experienced software developer specializing in C#.NET, Java, and SQL with a passion for 
-              automation testing and quality assurance in modern DevOps environments.
+             Experienced software developer with two years of hands-on experience in designing and developing robust applications using C#.NET, Java, and SQL.
+             I possess practical academic experience in functional testing, non-functional testing, and cloud-based test environments. 
+             I am proficient in developing and executing test scripts using tools such as Selenium, Postman, Cucumber, and Jenkins, 
+             and I have experience scripting in Java, along with foundational knowledge of CI/CD pipelines in cloud platforms like AWS and Azure. 
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
@@ -67,13 +69,13 @@ const Index = () => {
           <div className="relative animate-fade-in">
             <div className="relative bg-white rounded-3xl p-8 shadow-2xl">
               <img 
-                src="/lovable-uploads/055f888b-d46f-4c76-8034-3ea4a56876e1.png" 
+                src="/lovable-uploads/img1.jpg" 
                 alt="Shiju Abraham - Professional Software Developer"
                 className="w-full h-auto rounded-2xl object-cover"
               />
               <div className="absolute -bottom-4 -right-4 bg-blue-600 text-white rounded-2xl p-4 shadow-lg">
                 <div className="text-center">
-                  <div className="text-2xl font-bold">5+</div>
+                  <div className="text-2xl font-bold">2+</div>
                   <div className="text-sm">Years Experience</div>
                 </div>
               </div>
@@ -95,20 +97,20 @@ const Index = () => {
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
             <div className="space-y-2">
-              <div className="text-3xl font-bold text-blue-600">15+</div>
-              <div className="text-gray-600">Projects Completed</div>
+              <div className="text-3xl font-bold text-blue-600"></div>
+              <div className="text-gray-600"></div>
             </div>
             <div className="space-y-2">
-              <div className="text-3xl font-bold text-blue-600">5+</div>
-              <div className="text-gray-600">Years Experience</div>
+              <div className="text-3xl font-bold text-blue-600"></div>
+              <div className="text-gray-600"></div>
             </div>
             <div className="space-y-2">
-              <div className="text-3xl font-bold text-blue-600">10+</div>
-              <div className="text-gray-600">Technologies</div>
+              <div className="text-3xl font-bold text-blue-600"></div>
+              <div className="text-gray-600"></div>
             </div>
             <div className="space-y-2">
-              <div className="text-3xl font-bold text-blue-600">100%</div>
-              <div className="text-gray-600">Client Satisfaction</div>
+              <div className="text-3xl font-bold text-blue-600"></div>
+              <div className="text-gray-600"></div>
             </div>
           </div>
         </div>

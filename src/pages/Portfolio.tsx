@@ -108,7 +108,7 @@ const Portfolio = () => {
                   <div className="flex flex-col sm:flex-row gap-4 pt-4">
                     <Button className="bg-blue-600 hover:bg-blue-700 text-white">
                       <ExternalLink className="mr-2 h-4 w-4" />
-                      View Demo
+                      
                     </Button>
                     <Button variant="outline" className="border-gray-300 hover:border-blue-600 hover:text-blue-600">
                       <Github className="mr-2 h-4 w-4" />
@@ -142,7 +142,7 @@ const Portfolio = () => {
             Check back regularly or connect with me to see my latest work.
           </p>
           <Button asChild className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full">
-            <a href="https://github.com/shijuabraham" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/shijumylapra" target="_blank" rel="noopener noreferrer">
               <Github className="mr-2 h-5 w-5" />
               View All Projects on GitHub
             </a>

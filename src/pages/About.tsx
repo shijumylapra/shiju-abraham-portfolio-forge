@@ -51,7 +51,7 @@ const About = () => {
               <h3 className="font-semibold text-gray-900 mb-4">Quick Facts</h3>
               <ul className="space-y-3 text-sm text-gray-600">
                 <li><strong>Location:</strong> Edmonton, Canada</li>
-                <li><strong>Experience:</strong> 5+ Years</li>
+                <li><strong>Experience:</strong> 2+ Years</li>
                 <li><strong>Specialization:</strong> Software Development & Testing</li>
                 <li><strong>Focus:</strong> Automation & Quality Assurance</li>
                 <li><strong>Languages:</strong> C#, Java, SQL, JavaScript</li>
