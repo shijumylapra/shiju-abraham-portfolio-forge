@@ -43,8 +43,8 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone",
-      details: "+1 (780) 932-7130",
-      link: "tel:+15871234567"
+      details: "+1 (780) 000-0000",
+      link: "tel:+"
     },
     {
       icon: MapPin,
