@@ -45,24 +45,52 @@ const Index = () => {
               </Button>
             </div>
             
-            {/* Skills Preview */}
+   {/* Skills Preview */}
             <div className="pt-8">
-              <p className="text-sm text-gray-500 mb-4">Specialized in</p>
+              <p className="text-sm text-gray-500 mb-4">Areas of Expertise</p>
               <div className="flex flex-wrap gap-4">
                 <div className="flex items-center gap-2 bg-white rounded-full px-4 py-2 shadow-sm">
                   <Code className="h-4 w-4 text-blue-600" />
                   <span className="text-sm font-medium">C#.NET</span>
                 </div>
                 <div className="flex items-center gap-2 bg-white rounded-full px-4 py-2 shadow-sm">
-                  <Cpu className="h-4 w-4 text-blue-600" />
+                  <Code className="h-4 w-4 text-blue-600" />
                   <span className="text-sm font-medium">Test Automation</span>
                 </div>
                 <div className="flex items-center gap-2 bg-white rounded-full px-4 py-2 shadow-sm">
-                  <Database className="h-4 w-4 text-blue-600" />
+                  <Code className="h-4 w-4 text-blue-600" />
                   <span className="text-sm font-medium">SQL Server</span>
                 </div>
-              </div>
-            </div>
+                <div className="flex items-center gap-2 bg-white rounded-full px-4 py-2 shadow-sm">
+                  <Code className="h-4 w-4 text-blue-600" />
+                  <span className="text-sm font-medium">Java</span>
+                </div>
+                <div className="flex items-center gap-2 bg-white rounded-full px-4 py-2 shadow-sm">
+                  <Code className="h-4 w-4 text-blue-600" />
+                  <span className="text-sm font-medium">Selenium</span>
+                </div>
+                <div className="flex items-center gap-2 bg-white rounded-full px-4 py-2 shadow-sm">
+                  <Code className="h-4 w-4 text-blue-600" />
+                  <span className="text-sm font-medium">TestNG</span>
+                </div>
+                      <div className="flex items-center gap-2 bg-white rounded-full px-4 py-2 shadow-sm">
+                  <Code className="h-4 w-4 text-blue-600" />
+                  <span className="text-sm font-medium">AWS(EC2, S3)</span>
+                </div>
+                      <div className="flex items-center gap-2 bg-white rounded-full px-4 py-2 shadow-sm">
+                  <Code className="h-4 w-4 text-blue-600" />
+                  <span className="text-sm font-medium">BDD with Cucumber</span>
+                </div>
+                      <div className="flex items-center gap-2 bg-white rounded-full px-4 py-2 shadow-sm">
+                  <Code className="h-4 w-4 text-blue-600" />
+                  <span className="text-sm font-medium">React.js</span>
+                </div>
+                      <div className="flex items-center gap-2 bg-white rounded-full px-4 py-2 shadow-sm">
+                  <Code className="h-4 w-4 text-blue-600" />
+                  <span className="text-sm font-medium">Agile methodology</span>
+                </div>
+                </div>
+           </div>
           </div>
           
           {/* Right Content - Profile Image */}
@@ -81,13 +109,13 @@ const Index = () => {
               </div>
             </div>
             
-            {/* Floating elements */}
+            {/* Floating elements
             <div className="absolute -top-6 -left-6 bg-yellow-400 rounded-full p-4 shadow-lg animate-pulse">
               <Code className="h-6 w-6 text-gray-900" />
             </div>
             <div className="absolute top-1/2 -right-8 bg-green-500 rounded-full p-3 shadow-lg animate-pulse delay-300">
               <Database className="h-5 w-5 text-white" />
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
