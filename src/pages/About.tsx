@@ -25,31 +25,30 @@ const About = () => {
           <div className="grid lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2 space-y-6 text-gray-600 leading-relaxed">
               <p>
-                I am an experienced software developer with a strong background in C#.NET, Java, and SQL. 
-                My journey in technology began with a passion for problem-solving and has evolved into 
-                expertise across multiple programming languages and frameworks.
+               After taking a several year hiatus from the tech industry, I am enthusiastic about re-entering the field and contributing my skills, 
+               experience, and renewed passion for software development.
               </p>
               <p>
-                Although I do not hold a formal degree in Computer Science, my passion for 
-                software development and web design has driven me to self-teach and gain practical experience in coding.
-                I am excited about the opportunity to contribute to your team and help build innovative solutions that have a real impact.
+               Throughout my career, I have acquired hands-on experience in building, maintaining, and optimizing both desktop and web applications using C#.NET. 
+               I have successfully designed and implemented database schemas and queries with SQL Server, ensuring efficient data retrieval and optimal performance.
+               Additionally, I have consistently kept up to date with the latest technology trends and best practices in the industry, 
+               including advancements in cloud computing, microservices architecture, and Agile methodologies.
+                This knowledge enables me to deliver solutions that are both modern and scalable. 
+                A key strength of mine is my ability to identify and analyze problems in application software and propose effective alternatives for resolution. 
+                In my previous role I frequently collaborated with cross-functional teams to troubleshoot issues and deliver solutions that enhanced system 
+                performance and improved user experience.
               </p>
               <p>
-                Currently, I am transitioning into automation testing and quality assurance roles, 
-                driven by my belief that robust testing is crucial for delivering high-quality software. 
-                I am particularly interested in DevOps environments and continuous integration practices 
-                that enhance software reliability and deployment efficiency.
+               As a recent graduate of the QA Automation Test Engineer program, I have developed a solid understanding of automation, 
+               software development, testing, quality assurance technologies, as well as Agile and Scrum methodologies to ensure timely project delivery. 
+               Currently, I am working in a role as a Login Clerk, and I will be starting my Bachelor of Computer Applications (BCA) online program 
+               in the upcoming academic year. This decision reflects my strong commitment to continuous learning and my aspiration to build a meaningful 
+               career in the technology and insurance sector.
               </p>
               <p>
-                Currently, I am employed as a Login Clerk. 
-                My daily responsibilities require me to interact with various software platforms, troubleshoot common technical issues,
-                 and ensure the seamless operation of our digital systems. 
-                 In the upcoming academic year, I will be commencing my <b>Bachelor of Computer Applications (BCA)</b> program online. This opportunity will allow me to deepen my knowledge of programming languages, software development methodologies, and system analysis, all while continuing to apply my learning in a professional environment
-              </p>
-              <p>
-                My goal is to leverage my development experience to create comprehensive test automation 
-                frameworks that ensure software quality while reducing manual testing overhead. I believe 
-                in the power of automation to transform how we approach software quality assurance.
+              I have worked on several hands-on projects, including the design and development of scripts to enhance process efficiencies. Additionally,
+               I gained practical experience with programming languages such as Java and C#, as well as tools like Selenium, TestNG, Jenkins, 
+               AWS, MySQL, JUnit 5, Cucumber, and Gherkin. I possess a strong understanding of Object-Oriented Programming (OOP) principles.
               </p>
             </div>
             <div className="bg-blue-50 rounded-2xl p-6">
@@ -58,8 +57,7 @@ const About = () => {
                 <li><strong>Location:</strong> Edmonton, Canada</li>
                 <li><strong>Experience:</strong> 2+ Years</li>
                 <li><strong>Specialization:</strong> Software Development & Testing</li>
-                <li><strong>Focus:</strong> Automation & Quality Assurance</li>
-                <li><strong>Languages:</strong> C#, Java, SQL, JavaScript</li>
+                     <li><strong>Languages:</strong> C#, Java, SQL, JavaScript</li>
               </ul>
             </div>
           </div>
@@ -86,7 +84,7 @@ const About = () => {
             
             <div className="border-l-4 border-blue-600 pl-6">
               <h3 className="text-xl font-semibold text-gray-900">Software Developer Program</h3>
-              <p className="text-blue-600 font-medium">SAIT</p>
+              <p className="text-blue-600 font-medium">Southern Alberta Institute of Technology</p>
               <p className="text-gray-600">Jul 2019 - Dec 2019</p>
               <p className="text-gray-600 mt-2">
                 Computer programming, database management, and software development methodologies.
